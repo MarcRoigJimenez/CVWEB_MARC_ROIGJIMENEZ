@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Info: -->
+    <!-- Menú de navegación: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_sticky -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/codigo.js"></script>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/project-diagram-solid.svg" type="image/x-icon">
+    <!--load all styles -->
+
+    <title>CV WEB MARC ROIG</title>
+</head>
+
+<body>
+    <div id="top" class="row flex padding-lat">
+        <div class="column-1">
+            <h1>Curriculum Web Marc Roig Jiménez</h1>
+        </div>
+    </div>
+    <ul id="nav">
+        <li><a href="#video">Video Presentación</a></li>
+        <li><a href="#assignees">Localización CE</a></li>
+        <li><a href="#milestones">Mis capacidades</a></li>
+        <li><a href="#labels">Mis estudios</a></li>
+        <li><a href="#issues">Sobre mi</a></li>
+        <li>
+            <a href="#top"><i class="fas fa-arrow-up"></i></a>
+        </li>
+    </ul>
+    <div id="issues" class="row padding-lat flex">
+        <div class="column-2 padding-r">
+            <h1>Nombre: Marc Roig Jiménez</h1>
+            <p>Edad: 18</p>
+            <p>Actualmente residiendo en: Hospitalet de Llobregat, Barcelona, España</p>
+        </div>
+        <div class="column-2 padding-l">
+            <img src="img/Captura.PNG" width="50px">
+        </div>
+    </div>
+
+    <div id="labels" class="row padding-lat flex">
+
+        <div class="column-2 padding-r">
+            <img src="img/LA-Logo-libri-wiki.png" alt="issues">
+        </div>
+        <div class="column-2 padding-l">
+            <h1>Mis estudios</h1>
+            <p>Mis estudios alcanzan hasta un ciclo medio de informática el cuál se llama SMX</p>
+            <p>He estudiado en la escuela Jesuitas Joan 23 en Bellvitge</p>
+        </div>
+    </div>
+
+    <div id="milestones" class="row padding-lat flex">
+        <div class="column-3 padding-r">
+            <h1>Mis capacidades</h1>
+            <p>A lo largo de los años estudiando y trabajando con gente he ido adquiriendo diferentes capacidades y habilidades, las cuales considero que son bastante buenas</p>
+            <p>Aqui podemos ver grficámente mis habilidades y capacidades personales</p>
+        </div>
+        <div class="column-3 padding-l">
+            <p>Atención</p><progress id="file" max="100" value="90"> 80% </progress>
+            <p>Concentración</p><progress id="file" max="100" value="70"> 70% </progress>
+            <p>Trabajo en grupo</p><progress id="file" max="100" value="100"> 90% </progress>
+        </div>
+        <div>
+            <p>Liderazgo</p><progress id="file" max="100" value="60"> 60% </progress>
+            <p>Sociabilidad</p><progress id="file" max="100" value="100"> 100% </progress>
+            <p>Adaptación a los cambios</p><progress id="file" max="100" value="70"> 70% </progress>
+        </div>
+    </div>
+    <div id="assignees" class="row padding-lat flex">
+        <div class="column-2 padding-r">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.113370557405!2d2.1050974155045576!3d41.3498894792676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d64bd023fd%3A0x26089fc39cb352a3!2sCentro%20de%20Estudios%20Joan%20XXIII!5e0!3m2!1ses!2ses!4v1616168167159!5m2!1ses!2ses"></iframe>
+        </div>
+        <div class="column-2 padding-l">
+            <h1>Esta es la localizción de mi centro de estudios actual</h1>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+    <div id="video" class="row padding-lat flex">
+        <div class="column-2 padding-r">
+            <iframe width="700" height="394" src="https://www.youtube.com/embed/abPY4HMFBvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        </div>
+    <div id="footer" class="row padding-lat">
+        <h2> Selección de idioma </h2>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES" selected>Español</option>
+            <option value="EN">English</option>
+        </select>
+    </div>
+
+</body>
+
+</html>
